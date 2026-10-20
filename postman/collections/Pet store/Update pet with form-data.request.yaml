@@ -1,0 +1,10 @@
+$kind: http-request
+url: https://petstore.swagger.io/v2/pet/10
+method: POST
+body:
+  type: urlencoded
+  content:
+    petId: "10"
+    name: koyot
+    status: sold
+order: 7000
